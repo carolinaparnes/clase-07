@@ -7,12 +7,20 @@ SELECTOR {
 bgcolor = "lightblue"
 */
 
+* {
+    font-size: x-large;
+    /*font-size: 2rem;*/
+   /*font-family: fantasy;*/
+  
+}
+
 body {
     background-color: black;
 }
 footer {
     background-color: pink;
     color: white;
+    font-family: 'Maven Pro', sans-serif;
 }
 header {
     background-color: black;
@@ -36,4 +44,8 @@ body > table > tbody > tr > td:nth-child(2) > section > p {
 }
 ul, h2 {
     color: white;
+}
+
+.fa-chess-queen{
+    color: red;
 }
